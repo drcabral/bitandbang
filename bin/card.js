@@ -14,7 +14,8 @@ const options = {
 
 // Text + chalk definitions
 const data = {
-  name: chalk.white('             Diogo Cabral / @drcabral'),
+  name: chalk.white('           Diogo Cabral /'),
+  twitterNick: chalk.cyan('@drcabrales'),
   work: chalk.white('Mobile Developer at ThoughtWorks'),
   twitter: chalk.cyan('https://twitter.com/drcabrales'),
   github: chalk.cyan('https://github.com/drcabral'),
@@ -31,7 +32,7 @@ const data = {
 
 // Actual strings we're going to output
 const newline = '\n'
-const heading = `${data.name}`
+const heading = `${data.name} ${data.twitterNick}`
 const working = `${data.labelWork}  ${data.work}`
 const twittering = `${data.labelTwitter}  ${data.twitter}`
 const githubing = `${data.labelGitHub}  ${data.github}`
