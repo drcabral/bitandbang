@@ -1,9 +1,6 @@
-It's me, Tierney!
+# Do you know me?
 
-# Usage
-Via npx:
+See my personal card with npx:
 ```
-npx bitandbang
+npx diogocabral
 ```
-
-Not including how to use it globally because I'm not sure why you'd want this as a global command. That'd be creepy.
